@@ -10,6 +10,10 @@ while True:
     if guess == numero:
         print("Has adivinado el número")
         puntaje += 1
+    elif guess > numero:
+        print("El número que debes adivinar es menor")
+    elif guess < numero:
+        print("El número que debes adivinar es mayor")
     else:
         print("No lo adivinaste, ten más duerte la próxima")
         print("El número era:", numero)
