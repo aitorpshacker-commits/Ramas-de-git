@@ -15,7 +15,7 @@ while True:
     elif guess < numero:
         print("El número que debes adivinar es mayor")
     else:
-        print("No lo adivinaste, ten más duerte la próxima")
+        print("No lo adivinaste, ten más suerte la próxima MUAJAJAJAJAAJAJJAAA")
         print("El número era:", numero)
 
     pregunta = input("¿Quieres dejar de jugar?")
